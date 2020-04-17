@@ -35,8 +35,8 @@ SerialPortInitialize (
   )
 {
 #if 0
-  UINT8* base = (UINT8*)0xa1a10000ull;
-  for (UINTN i = 0; i < 0x200000; i++) {
+  UINT8* base = (UINT8*)0xa0000000ull;
+  for (UINTN i = 0; i < 0x20000; i++) {
     base[i] = 0;
   }
 #endif
@@ -44,9 +44,9 @@ SerialPortInitialize (
 }
 
 static void mem_putchar(UINT8 c) {
-  static const UINTN size = 0x200000;
+  static const UINTN size = 0x20000;
   static UINTN offset = 0;
-  UINT8* base = (UINT8*)0xa1a10000ull;
+  UINT8* base = (UINT8*)0xa0000000ull;
   base[offset++] = c;
   if (offset >= size) {
     offset = 0;
