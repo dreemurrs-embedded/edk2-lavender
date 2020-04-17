@@ -5,7 +5,7 @@ Based on zhuowei's port for Pixel3XL (https://github.com/Pixel3Dev/edk2-pixel3/)
 
 ## Status 
 
-Nothing works yet.. wow, what a surprise!
+Boots to UEFI shell
 
 Anyway, if anyone is willing to help, please join our Discord server [DanctNIX](https://discord.gg/AvtdRJ3).
 

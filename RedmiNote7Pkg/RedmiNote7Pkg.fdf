@@ -491,11 +491,11 @@ READ_LOCK_STATUS   = TRUE
   INF MdeModulePkg/Universal/Disk/DiskIoDxe/DiskIoDxe.inf
   INF MdeModulePkg/Universal/Disk/PartitionDxe/PartitionDxe.inf
 
-  FILE DRIVER = f10f76db-42c1-533f-34a8-69be24653110 {
-    SECTION DXE_DEPEX = RedmiNote7Pkg/Binary/SdccDxe/SdccDxe.depex
-    SECTION PE32 = RedmiNote7Pkg/Binary/SdccDxe/SdccDxe.efi
-    SECTION UI = "SdccDxe"
-  }
+#  FILE DRIVER = f10f76db-42c1-533f-34a8-69be24653110 {
+#    SECTION DXE_DEPEX = RedmiNote7Pkg/Binary/SdccDxe/SdccDxe.depex
+#    SECTION PE32 = RedmiNote7Pkg/Binary/SdccDxe/SdccDxe.efi
+#    SECTION UI = "SdccDxe"
+#  }
 
   FILE DRIVER = 0d35cd8e-97ea-4f9a-96af-0f0d89f76567 {
     SECTION DXE_DEPEX = RedmiNote7Pkg/Binary/UFSDxe/UFSDxe.depex

@@ -42,4 +42,4 @@
   gRedmiNote7PkgTokenSpaceGuid.PcdMipiFrameBufferHeight|2340|UINT32|0x0000a402
   gRedmiNote7PkgTokenSpaceGuid.PcdMipiFrameBufferPixelBpp|32|UINT32|0x0000a403
   gRedmiNote7PkgTokenSpaceGuid.PcdMipiFrameBufferVisibleWidth|1080|UINT32|0x0000a404
-  gRedmiNote7PkgTokenSpaceGuid.PcdMipiFrameBufferVisibleHeight|1920|UINT32|0x0000a405
+  gRedmiNote7PkgTokenSpaceGuid.PcdMipiFrameBufferVisibleHeight|2340|UINT32|0x0000a405
