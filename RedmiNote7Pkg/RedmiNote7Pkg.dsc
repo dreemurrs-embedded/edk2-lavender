@@ -68,6 +68,7 @@
 
   SerialPortLib|RedmiNote7Pkg/Library/FrameBufferSerialPortLib/FrameBufferSerialPortLib.inf
   PlatformBootManagerLib|RedmiNote7Pkg/Library/PlatformBootManagerLib/PlatformBootManagerLib.inf
+  PlatformPeiLib|RedmiNote7Pkg/Library/PlatformPeiLib/PlatformPeiLib.inf
 
 [LibraryClasses.common.SEC]
   PrePiLib|EmbeddedPkg/Library/PrePiLib/PrePiLib.inf
@@ -75,7 +76,6 @@
   HobLib|EmbeddedPkg/Library/PrePiHobLib/PrePiHobLib.inf
   MemoryAllocationLib|EmbeddedPkg/Library/PrePiMemoryAllocationLib/PrePiMemoryAllocationLib.inf
   MemoryInitPeiLib|ArmPlatformPkg/MemoryInitPei/MemoryInitPeiLib.inf
-  PlatformPeiLib|ArmPlatformPkg/PlatformPei/PlatformPeiLib.inf
   PrePiHobListPointerLib|ArmPlatformPkg/Library/PrePiHobListPointerLib/PrePiHobListPointerLib.inf
 
 ################################################################################
