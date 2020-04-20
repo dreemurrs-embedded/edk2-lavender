@@ -413,11 +413,11 @@ READ_LOCK_STATUS   = TRUE
   #Binary DXE drivers from Xiaomi lavender SDM660
   #
 
-#  FILE DRIVER = 90a49afd-422f-08ae-9611-e788d3804845 {
-#    SECTION DXE_DEPEX = RedmiNote7Pkg/Binary/EnvDxe/EnvDxe.depex
-#    SECTION PE32 = RedmiNote7Pkg/Binary/EnvDxe/EnvDxe.efi
-#    SECTION UI = "EnvDxe"
-#  }
+  FILE DRIVER = 90a49afd-422f-08ae-9611-e788d3804845 {
+    SECTION DXE_DEPEX = RedmiNote7Pkg/Binary/EnvDxe/EnvDxe.depex
+    SECTION PE32 = RedmiNote7Pkg/Binary/EnvDxe/EnvDxe.efi
+    SECTION UI = "EnvDxe"
+  }
 
   FILE DRIVER = 5e0eae60-eaed-4d75-b8bf-edbbaabc3f09 {
     SECTION PE32 = RedmiNote7Pkg/Binary/SecurityDxe/SecurityDxe.efi
@@ -491,11 +491,11 @@ READ_LOCK_STATUS   = TRUE
   INF MdeModulePkg/Universal/Disk/DiskIoDxe/DiskIoDxe.inf
   INF MdeModulePkg/Universal/Disk/PartitionDxe/PartitionDxe.inf
 
-#  FILE DRIVER = f10f76db-42c1-533f-34a8-69be24653110 {
-#    SECTION DXE_DEPEX = RedmiNote7Pkg/Binary/SdccDxe/SdccDxe.depex
-#    SECTION PE32 = RedmiNote7Pkg/Binary/SdccDxe/SdccDxe.efi
-#    SECTION UI = "SdccDxe"
-#  }
+  FILE DRIVER = f10f76db-42c1-533f-34a8-69be24653110 {
+    SECTION DXE_DEPEX = RedmiNote7Pkg/Binary/SdccDxe/SdccDxe.depex
+    SECTION PE32 = RedmiNote7Pkg/Binary/SdccDxe/SdccDxe.efi
+    SECTION UI = "SdccDxe"
+  }
 
   FILE DRIVER = 0d35cd8e-97ea-4f9a-96af-0f0d89f76567 {
     SECTION DXE_DEPEX = RedmiNote7Pkg/Binary/UFSDxe/UFSDxe.depex
