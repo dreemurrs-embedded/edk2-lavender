@@ -291,6 +291,30 @@ READ_LOCK_STATUS   = TRUE
       SECTION PE32 = RedmiNote7Pkg/Binary/RngDxe/RngDxe.efi
       SECTION UI = "RngDxe"
     }
+
+    FILE DRIVER = 94f8a6a7-dc34-4101-88c1-99179cceae83 {
+      SECTION DXE_DEPEX = RedmiNote7Pkg/Binary/UsbfnDwc3Dxe/UsbfnDwc3Dxe.depex
+      SECTION PE32 = RedmiNote7Pkg/Binary/UsbfnDwc3Dxe/UsbfnDwc3Dxe.efi
+      SECTION UI = "UsbfnDwc3Dxe"
+    }
+
+    FILE DRIVER = 5af77f10-90df-4e7e-8325-a17ec09d5443 {
+      SECTION DXE_DEPEX = RedmiNote7Pkg/Binary/UsbMsdDxe/UsbMsdDxe.depex
+      SECTION PE32 = RedmiNote7Pkg/Binary/UsbMsdDxe/UsbMsdDxe.efi
+      SECTION UI = "UsbMsdDxe"
+    }
+
+    FILE DRIVER = 3299a266-15f0-4346-8318-716336736d3e {
+      SECTION DXE_DEPEX = RedmiNote7Pkg/Binary/UsbDeviceDxe/UsbDeviceDxe.depex
+      SECTION PE32 = RedmiNote7Pkg/Binary/UsbDeviceDxe/UsbDeviceDxe.efi
+      SECTION UI = "UsbDeviceDxe"
+    }
+
+    FILE DRIVER = cd823a4d-7dec-4531-ae5d-4134fa4127b8 {
+      SECTION DXE_DEPEX = RedmiNote7Pkg/Binary/UsbConfigDxe/UsbConfigDxe.depex
+      SECTION PE32 = RedmiNote7Pkg/Binary/UsbConfigDxe/UsbConfigDxe.efi
+      SECTION UI = "UsbConfigDxe"
+    }
   }
 
   INF MdeModulePkg/Core/Dxe/DxeMain.inf
@@ -577,6 +601,30 @@ READ_LOCK_STATUS   = TRUE
 #    SECTION PE32 = RedmiNote7Pkg/Binary/RngDxe/RngDxe.efi
 #    SECTION UI = "RngDxe"
 #  }
+
+    FILE DRIVER = 94f8a6a7-dc34-4101-88c1-99179cceae83 {
+      SECTION DXE_DEPEX = RedmiNote7Pkg/Binary/UsbfnDwc3Dxe/UsbfnDwc3Dxe.depex
+      SECTION PE32 = RedmiNote7Pkg/Binary/UsbfnDwc3Dxe/UsbfnDwc3Dxe.efi
+      SECTION UI = "UsbfnDwc3Dxe"
+    }
+
+    FILE DRIVER = 5af77f10-90df-4e7e-8325-a17ec09d5443 {
+      SECTION DXE_DEPEX = RedmiNote7Pkg/Binary/UsbMsdDxe/UsbMsdDxe.depex
+      SECTION PE32 = RedmiNote7Pkg/Binary/UsbMsdDxe/UsbMsdDxe.efi
+      SECTION UI = "UsbMsdDxe"
+    }
+
+    FILE DRIVER = 3299a266-15f0-4346-8318-716336736d3e {
+      SECTION DXE_DEPEX = RedmiNote7Pkg/Binary/UsbDeviceDxe/UsbDeviceDxe.depex
+      SECTION PE32 = RedmiNote7Pkg/Binary/UsbDeviceDxe/UsbDeviceDxe.efi
+      SECTION UI = "UsbDeviceDxe"
+    }
+
+    FILE DRIVER = cd823a4d-7dec-4531-ae5d-4134fa4127b8 {
+      SECTION DXE_DEPEX = RedmiNote7Pkg/Binary/UsbConfigDxe/UsbConfigDxe.depex
+      SECTION PE32 = RedmiNote7Pkg/Binary/UsbConfigDxe/UsbConfigDxe.efi
+      SECTION UI = "UsbConfigDxe"
+    }
 
 [FV.FVMAIN_COMPACT]
 FvAlignment        = 8
