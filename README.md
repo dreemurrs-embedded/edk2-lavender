@@ -1,11 +1,17 @@
+# EDK2 for Xiaomi Redmi Note 7.
 
-Attempt to create a minimal EDK2 for Xiaomi Redmi Note 7.
-
-Based on zhuowei's port for Pixel3XL (https://github.com/Pixel3Dev/edk2-pixel3/).
+Based on fxsheep's port for Xiaomi Mi 6 (sagit) (https://github.com/fxsheep/edk2-sagit/).
 
 ## Status 
 
-Boots to UEFI shell
+What works:
+- Display
+- UEFI Shell
+
+What does not work:
+- Clocks
+- eMMC (SdccDxe requires Clocks)
+...
 
 Anyway, if anyone is willing to help, please join our Discord server [DanctNIX](https://discord.gg/AvtdRJ3).
 
@@ -34,10 +40,10 @@ Also see [EDK2 website](https://github.com/tianocore/tianocore.github.io/wiki/Us
 
 Finally, ./build.sh.
 
-Then fastboot flash boot uefi.img.
+Then `fastboot flash boot uefi.img`.
 
-# Credits, from the original fork
+# Credits
 
-This is based on zhuowei's [edk2-pixel3](https://github.com/Pixel3Dev/edk2-pixel3).  
+This is based on fxsheep's [Mi6 port](https://github.com/fxsheep/edk2-sagit/), which is based on zhuowei's [edk2-pixel3](https://github.com/Pixel3Dev/edk2-pixel3).  
 SimpleFbDxe screen driver is from imbushuo's [Lumia950XLPkg](https://github.com/WOA-Project/Lumia950XLPkg).  
-Special thanks to @lemon1ice, @gus33000 and @imbushuo for guidance.
+Special thanks to @lemon1ice and @imbushuo for guidance.
